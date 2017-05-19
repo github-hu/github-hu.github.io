@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin:0;
+				padding:0;
+			}
+			a{text-decoration:none;}
+			body{
+				font-size:12px;
+				font-family: "微软雅黑";
+			}
+			.regMain{
+			    min-height: 600px;
+			    width: 960px;
+			    margin: 0px auto;
+			}
+			.regRight {
+			    border: #ccc 1px solid;
+			    border-top: #ea3918 2px solid;
+			    width: 290px;
+			    float: right;
+			    margin-right: 80px;
+			    margin-top: 30px;
+			    padding: 20px 40px;
+			    
+			}
+			.regRight h3{
+				float:left;
+				font-size:22px;
+				width:110px;
+				height:29px;
+			}
+			.regRight .rR{
+				float:right;
+				text-align: right;
+			}
+			.clearfix:after {
+			    content: "";
+			    display: block;
+			    height: 0;
+			    clear: both;
+			}
+				.clearfix {
+				    zoom: 1;
+			}
+			#divCont{
+				width:290px;
+				height:390px;
+				margin-top:20px;
+				
+				
+			}
+			
+			.regRight .login-other{
+				width:290px;
+				height:56px;
+	
+				
+			}
+			.regRight .login-other input{
+				width:278px;
+				height:30px;
+				border:1px solid #dedede;
+				padding:0 5px;
+			}
+			.regRight .login-other .code{
+				width:100px;
+				padding-left:8px;
+			}
+			.regRight .login-other p{
+				width:290px;
+				height:24px;
+				line-height:24px;
+				font-size:12px;
+				color:#ff6b52;
+			}
+			.regRight .login-other .phonebtn{
+				    width: 110px;
+				    height: 30px;
+				    border: 1px solid #ccc;
+				    background: #eee;
+				    display: inline-block;
+				    line-height: 30px;
+				    text-align: center;
+				    color: #444;
+				    font-size: 12px;
+			}
+			.regRight .btn-reg{
+				    background-color: #e83917;
+				    width: 290px;
+				    margin-top: 5px;
+				    color: #fff;
+				    font-size: 22px;
+				    height: 40px;
+				    line-height: 40px;
+				    border: none;
+				    border-radius: 3px;
+				    cursor: pointer;
+			}
+			#checkbox{
+				vertical-align: middle;
+				height:14px;
+				width:14px;
+			}
+			#reg-form-foot{
+				margin-top:20px;
+				text-align:center;
+			}
+			#head{
+				height:110px;
+				width:1000px;
+				margin:20px auto;
+				
+			}
+			#head .left{
+				float:left;
+			}
+			#head .right{
+				margin-top:40px;
+				float:right;
+			}
+			.regMain .regLeft{
+				float:left;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="head">
+			<div class="left">
+				<img src="img/logo.gif"/>
+			</div>
+			<div class="right">
+				<img src="img/registerAuthenticPic.png" alt="" />
+			</div>
+		</div>
+		<div class="regMain">
+			<div class="regLeft">
+				<img src="img/y-f47pogB-mW6latDSyH4k.png" alt="" />
+			</div>
+			<div class="regRight">
+				<h3>新用户注册</h3>
+				<span class="rR">已有麦乐购账号,<a href="login.html">直接登录</a></span>
+				<div class="clearfix"></div>
+				<div id="divCont">
+					<form action="" method="post">
+						<div class="login-other">
+							<input type="text" class="account" />
+							<p class="account-mes"></p>
+						</div>
+						
+						<div class="login-other">
+							<input type="password" class="password" />
+							<p class="pass-mes"></p>
+						</div>
+						
+						<div class="login-other">
+							<input type="password" class="password1" />
+							<p class="phone-mes1"></p>
+						</div>
+						
+						<div class="login-other">
+							<input type="text" class="code" />
+							<em></em>
+							<span>验证码</span>
+							<span><a href="javascript:;">换一张</a></span>
+							<p class="code-mes"></p>
+						</div>
+						
+						<div class="login-other">
+							<input type="text" class="code phonecode" />
+							<a class="phonebtn" href="javascript:;">获取验证码</a>
+							<p class="code-mes"></p>
+						</div>
+						<div class="login-other login-check">
+							<input type="checkbox" name="" id="checkbox" value="" />
+							<span>以阅读并同意<a href="javascript:;">《麦乐购注册协议及交易条款》</a></span>
+							<button type="button" class="btn-reg">立即注册</button>
+							<div id="reg-form-foot">收不到短信？<a href="javascript:;">请使用语音验证</a></div>
+						</div>
+					</form>				
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/lib/jquery-1.11.3.js"></script>
+		<script type="text/javascript">
+			//定义各个注册信息状态，默认丢为false
+			var regStatus ={
+				uname:false,
+				psw:false,
+				phone:false
+			};
+			
+			//定义需要的变量
+			var unameInput =$('form .account'),
+				pswInput =$('form .password'),
+				phoneInput =$('form .phonecode'),
+				regBtn =$('btn-reg');
+				
+			//账号验证（失焦验证，1.用户名是否合法 2.用户名是否存在
+			
+			var regUname =/^[a-zA-Z_]\w{5,15}$/;
+			unameInput.blur(function(){
+				var uname = unameInput.val();
+				
+				//假设用户名正确
+				regStatus.uname =true;
+				var accountMes = $('.account-mes')
+				if(!regUname.test(uname)){
+					accountMes.html('账号应在6-16字符内');
+					regStatus.uname=false;
+				}else{
+					//判断用户名是否注册
+					$.ajax({
+						url:
+'http://10.9.151.199/PC-Project-Admin/checkAccount.php',
+						data:{
+							account:uname
+						},
+						dataType:'jsonp',
+						success:function(result){
+							if(result.status){
+								accountMes.html('用户名可用');
+							}else{
+								accountMes.html('用户名不可用');
+								regStatus.uname=false;
+							}
+						}
+					});
+				}
+			});
+			
+			//密码验证
+			var regPsw =/^[\w!@#$%]{6,16}$/;
+			pswInput.on('input',function(){
+				var psw =pswInput.val();
+				regStatus.psw=true;
+				
+				//密码处理
+				var passMes =$('.pass-mes');
+				if(!regPsw.test(psw)){
+					passMes.html('密码非法字符或非法长度');
+					regStatus.psw=false;
+			
+				}else{
+					passMes.html('');
+					regStatus.psw =true;
+				}
+			});
+			
+			//手机号验证
+			var regPhone =/^1[3578]\d{9}$/;
+			phoneInput.on('input',function(){
+				var phone =phoneInput.val();
+				regStatus.phone =true;
+				var phoneMes =$('.phone-mes');
+				if(regPhone.test(phone)){
+					phoneMes.html('手机非法')
+				}else{
+					phoneMes.html('');
+					regStatus.phone =true;
+				}
+			});
+			
+			//点击登录
+			regBtn.click(function(){
+				//判断所有的信息状态
+				
+			})
+			
+		</script>
+	</body>
+</html>

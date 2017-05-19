@@ -1,0 +1,106 @@
+@charset "utf-8";
+/*------site-top--------*/
+.head{
+    width:100%;
+    .site-top{
+        width:1190px;
+        height:36px;
+        line-height:36px;
+        margin: 0 auto;
+        background: #f5f5f5;
+        .fl{
+            float:left;
+            margin-right:10px;
+            span{
+                margin-right:5px;
+                
+            }
+            .homeicon{
+                display: block;
+                float: left;
+                width: 15px;
+                height: 36px;
+                margin-right: 3px;
+                background: url(../img/icon_index.png) no-repeat scroll 0 11px;
+            }
+        }
+        .otherlog span{
+            float:left;
+        }
+        .otherlog a{
+            display: block;
+            float: left;
+            width: 20px;
+            height: 36px;
+            margin-right: 3px;
+            background: url(../img/icon_index.png) no-repeat;
+        }
+        .otherlog .qq{
+            background-position: -378px 10px;
+        }
+        .otherlog .ali{
+            background-position: -414px 10px;
+        }
+        .otherlog .aq360{
+            background-position: -449px 10px;
+        }
+        .otherlog .weibo{
+            background-position: -485px 10px;
+        }
+        .forser span{
+            font-size:14px;
+        }
+    }
+}
+
+.fr{
+    float:right;
+    span{
+            float:left;
+        }
+    .fr-item{
+        position:relative;
+        float:left;
+        padding:0 10px;
+        a{
+               
+        }
+        .homeicon{
+            float:right;
+            width:10px;
+            height: 20px;
+            margin:6px 0 6px 8px;
+            background: url(../img/icon_index.png) no-repeat  -89px 0px;
+           
+        }
+        .nonecon{
+            position:absolute;
+            top:36px;
+            right:0;
+        }
+        .front{
+                background: url(../img/icon_index.png) no-repeat;
+                padding: 2px 7px 1px 6px;
+                position: relative;
+                left: -5px;
+        }
+        .icoll{
+            background-position:-66px -21px;
+        }
+        .phone{
+           background-position:-24px 0px;
+        }
+        ul{
+            position: absolute;
+            top:36px;
+            left:10px;
+           li{
+                height:24px;
+                line-height:24px;
+            } 
+        }
+            
+    }
+}
+
+
