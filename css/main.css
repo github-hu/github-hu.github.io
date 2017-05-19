@@ -1,6 +1,7 @@
 /*------site-top--------*/
 .head {
   width: 100%;
+  background: #f5f5f5;
 }
 
 .head .site-top {
@@ -8,7 +9,6 @@
   height: 36px;
   line-height: 36px;
   margin: 0 auto;
-  background: #f5f5f5;
 }
 
 .head .site-top .fl {
@@ -70,10 +70,17 @@
   float: left;
 }
 
+.fr .fr-slide {
+  height: 35px;
+}
+
 .fr .fr-item {
   position: relative;
   float: left;
   padding: 0 10px;
+  border: 1px solid #f5f5f5;
+  border-bottom: 0;
+  z-index: 20;
 }
 
 .fr .fr-item .homeicon {
@@ -85,9 +92,12 @@
 }
 
 .fr .fr-item .nonecon {
+  display: none;
   position: absolute;
-  top: 36px;
-  right: 0;
+  top: 34px;
+  right: -1px;
+  border: 1px solid #f5f5f5;
+  border-top: 0;
 }
 
 .fr .fr-item .front {
@@ -106,9 +116,16 @@
 }
 
 .fr .fr-item ul {
+  display: none;
+  border: 1px solid #fff;
+  border-top: 0;
   position: absolute;
-  top: 36px;
-  left: 10px;
+  z-index: 10;
+  top: 34px;
+  left: -1px;
+  width: 78px;
+  padding: 0 10px;
+  background: #fff;
 }
 
 .fr .fr-item ul li {

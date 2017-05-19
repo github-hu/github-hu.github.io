@@ -2,12 +2,13 @@
 /*------site-top--------*/
 .head{
     width:100%;
+    background: #f5f5f5;
     .site-top{
         width:1190px;
         height:36px;
         line-height:36px;
         margin: 0 auto;
-        background: #f5f5f5;
+        
         .fl{
             float:left;
             margin-right:10px;
@@ -55,13 +56,21 @@
 
 .fr{
     float:right;
+    
     span{
             float:left;
         }
+    .fr-slide{
+        height:35px;
+    }
     .fr-item{
         position:relative;
         float:left;
         padding:0 10px;
+        border: 1px solid #f5f5f5;
+        border-bottom: 0;
+        z-index:20;
+        
         a{
                
         }
@@ -74,9 +83,12 @@
            
         }
         .nonecon{
+            display: none;
             position:absolute;
-            top:36px;
-            right:0;
+            top:34px;
+            right:-1px;
+            border: 1px solid #f5f5f5;
+            border-top: 0;
         }
         .front{
                 background: url(../img/icon_index.png) no-repeat;
@@ -91,9 +103,16 @@
            background-position:-24px 0px;
         }
         ul{
+            display: none;;
+            border:1px solid #fff;
+            border-top:0;
             position: absolute;
-            top:36px;
-            left:10px;
+            z-index:10;
+            top:34px;
+            left:-1px;
+            width:78px;
+            padding:0 10px;
+            background:#fff;
            li{
                 height:24px;
                 line-height:24px;
