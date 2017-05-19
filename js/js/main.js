@@ -1,5 +1,6 @@
 define(['jquery'],function(){
 		$(function(){
+		/*------start head  js-------------------*/
 		var slide =$('.fr-slide');
 		
 		slide.on('mouseenter',function(){
@@ -56,6 +57,12 @@ define(['jquery'],function(){
 				'background-position':'-64px -21px'
 			})
 		});
+		/*------end head  js-------------------*/
+		
+		
+		
+		
+		
 	})
 })
 

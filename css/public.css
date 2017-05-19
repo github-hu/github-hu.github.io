@@ -3,6 +3,7 @@
 /* css reset start */
 body,h1,h2,h3,h4,h5,h6,dl,dd,ul,li,ol,form,input,select,p,textarea,span{margin:0; font-size:12px; padding:0;font-family:Arial, Helvetica, sans-serif;}
 input,textarea,th,td,ol{padding:0;}
+input{outline:none}
 
 a{text-decoration:none; cursor:pointer;}
 a:hover{text-decoration:none; cursor:pointer;}

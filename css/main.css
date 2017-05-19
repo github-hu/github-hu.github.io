@@ -94,7 +94,7 @@
 .fr .fr-item .nonecon {
   display: none;
   position: absolute;
-  top: 34px;
+  top: 35px;
   right: -1px;
   border: 1px solid #f5f5f5;
   border-top: 0;
@@ -121,7 +121,7 @@
   border-top: 0;
   position: absolute;
   z-index: 10;
-  top: 34px;
+  top: 35px;
   left: -1px;
   width: 78px;
   padding: 0 10px;
@@ -131,4 +131,74 @@
 .fr .fr-item ul li {
   height: 24px;
   line-height: 24px;
+}
+
+/*-------search-item----------------*/
+.search-item {
+  width: 1190px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.search-item .search-item-l {
+  width: 300px;
+  height: 120px;
+  float: left;
+  overflow: hidden;
+}
+
+.search-item .search-item-c {
+  width: 625px;
+  height: 98px;
+  float: left;
+  padding: 40px 0 0 55px;
+}
+
+.search-item .search-item-c .search-key {
+  float: left;
+  width: 625px;
+}
+
+.search-item .search-item-c .search-key p {
+  width: 625px;
+}
+
+.search-item .search-item-c .search-key p a {
+  padding: 0 2px;
+}
+
+.search-item .search-item-r {
+  float: right;
+  width: 200px;
+  height: 90px;
+  margin-top: 20px;
+}
+
+#search-container {
+  width: 625px;
+}
+
+#search-container input {
+  float: left;
+  width: 390px;
+  line-height: 35px;
+  height: 35px;
+  border: 2px solid #cb1e00;
+  font-size: 14px;
+  color: #b8b8b8;
+  padding: 0 5px;
+}
+
+#search-container a {
+  float: left;
+  width: 90px;
+  height: 39px;
+  line-height: 39px;
+  text-align: center;
+  background: #cc1d00;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  font-family: Microsoft Yahei,"microsoft yahei";
+  border: 0px;
 }
