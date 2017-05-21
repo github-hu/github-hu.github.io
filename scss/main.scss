@@ -59,26 +59,24 @@
     
     span{
             float:left;
+            padding:0 8px;
         }
     .fr-slide{
         height:35px;
+        width:80px;
+        padding:0 2px 0 10px;
     }
     .fr-item{
         position:relative;
         float:left;
-        padding:0 10px;
         border: 1px solid #f5f5f5;
         border-bottom: 0;
         z-index:20;
-        
-        a{
-               
-        }
-        .homeicon{
+         .homeicon{
             float:right;
             width:10px;
             height: 20px;
-            margin:6px 0 6px 8px;
+            margin:6px 2px 6px 0;
             background: url(../img/icon_index.png) no-repeat  -89px 0px;
            
         }
@@ -110,8 +108,8 @@
             z-index:10;
             top:35px;
             left:-1px;
-            width:78px;
-            padding:0 10px;
+            width:80px;
+            padding:0 2px 0 10px;
             background:#fff;
            li{
                 height:24px;
