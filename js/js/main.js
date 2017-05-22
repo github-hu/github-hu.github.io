@@ -59,10 +59,46 @@ define(['jquery'],function(){
 		});
 		/*------end head  js-------------------*/
 		
+		/*----------nav-menu--------------*/
+		$('.nav-menu li').on("mouseenter",function(){
+			var index=$(this).index();
+			
+			$('.menu-con .menu-con-item').eq(index)
+			.show().stop(true,true)
+			.animate({
+				left:180,
+				opacity:.96
+			},200)
+			.siblings().hide().stop(true,true)
+			.animate({
+				left:170,
+				opacity:.5
+			},200);
+			
+			$(this).css({
+				background:"#a90000"
+			}).stop().animate({
+				"padding-left":10
+			},200).siblings().css({
+				background:"#cb3e25"
+			}).stop().animate({
+				"padding-left":0
+			},200);
+			
+		});
 		
-		
-		
-		
+		$('.nav-item').on("mouseleave",".nav-menu",function(){
+			$(this).find(".menu-con-item").hide().stop(true,true)
+			.animate({
+				left:170,
+				opacity:.5
+			},200)
+			.end().find("ul li").css({
+				background: "#cb3e25"
+			}).stop().animate({
+				"padding-left":0
+			},200);
+		});
 	})
 })
 
