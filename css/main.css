@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*------site-top--------*/
 .head {
   width: 100%;
@@ -390,8 +391,257 @@
 }
 
 /*----banner----------*/
-.banner-container {
+.banner {
   width: 100%;
   height: 480px;
   background: blueviolet;
+}
+
+.banner .banner-container {
+  width: 1190px;
+  height: 480px;
+  margin: 0 auto;
+  /*-------------轮播图区-------------------*/
+}
+
+.banner .banner-container .pic-right-ad {
+  float: right;
+  width: 200px;
+  height: 479px;
+}
+
+.banner .banner-container .pic-right-ad a {
+  display: block;
+  margin-top: 1px;
+  width: 200px;
+  height: 159px;
+  background: #fff;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+.banner .banner-container .banner-item {
+  float: right;
+  width: 810px;
+  height: 480px;
+  position: relative;
+  left: 0;
+}
+
+.banner .banner-container .banner-item ul {
+  position: absolute;
+  z-index: 5;
+  bottom: 12px;
+  width: 800px;
+  padding: 0 3px 0 7px;
+}
+
+.banner .banner-container .banner-item ul li {
+  float: left;
+  position: relative;
+  top: 0;
+  width: 157px;
+  margin-right: 3px;
+}
+
+/*----------通栏商品两个---------------*/
+.article {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.article .banAds {
+  width: 1190px;
+  height: 200px;
+}
+
+.article .banAds a {
+  display: block;
+  width: 590px;
+  margin-right: 10px;
+  float: left;
+}
+
+.article .banAds .last {
+  margin-right: 0px;
+}
+
+.mtop25 {
+  margin-top: 25px;
+}
+
+/*---------今日半价-------------*/
+h3 {
+  font-weight: 500;
+  font-size: 100%;
+}
+
+.top {
+  height: 38px;
+  line-height: 46px;
+  overflow: hidden;
+  position: relative;
+  font-family: "microsoft yahei";
+  margin-bottom: 3px;
+}
+
+.top a {
+  float: right;
+  margin-top: 5px;
+}
+
+.top span {
+  float: left;
+  padding-top: 6px;
+  color: #999;
+  font-family: "microsoft yahei";
+  font-size: 14px;
+}
+
+.top h2 {
+  float: left;
+  padding: 0 0 0 5px;
+  font-size: 18px;
+  margin-right: 10px;
+  font-family: "microsoft yahei";
+  font-weight: bold;
+}
+
+.top h2 .iTit {
+  display: block;
+  float: left;
+  width: 38px;
+  height: 38px;
+  margin-right: 5px;
+  background: url(../img/icon_index.png) no-repeat;
+}
+
+.top h2 .ihalf {
+  background-position: -104px -44px;
+}
+
+.list {
+  border-top: 1px solid #E0E0E0;
+  border-right: 1px solid #E0E0E0;
+  background: #fff;
+  overflow: hidden;
+}
+
+.list ul li {
+  width: 395px;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #E0E0E0;
+  border-left: 1px solid #E0E0E0;
+  overflow: hidden;
+}
+
+.list ul li .list-item-left {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 20px 15px;
+}
+
+.list ul li .list-item-left img {
+  width: 100%;
+  height: 100%;
+}
+
+.list ul li .list-item-right {
+  float: right;
+  width: 215px;
+  height: 190px;
+}
+
+.list ul li .list-item-right .list-head {
+  display: block;
+  font-size: 14px;
+  width: 180px;
+  height: 60px;
+  margin: 30px 0 20px 0;
+}
+
+.list ul li .list-item-right .list-piece {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.list ul li .list-item-right .list-piece .piece-sale {
+  font-size: 20px;
+  color: red;
+  margin-right: 10px;
+}
+
+.list ul li .list-item-right .list-piece .piece-long {
+  color: #a1a1a1;
+}
+
+.list ul li .list-item-right .list-piece .piece-long i {
+  text-decoration: line-through;
+}
+
+.list ul li .list-item-right .list-num {
+  display: block;
+}
+
+.list ul li .list-item-right .list-num span {
+  color: #a1a1a1;
+}
+
+.list ul li .list-item-right .list-num span i {
+  margin: 0 3px;
+}
+
+.list ul li .list-item-right .list-num .list-btn {
+  float: right;
+  display: inline-block;
+  color: #fff;
+  font-family: "microsoft yahei";
+  font-size: 14px;
+  padding: 0 18px 0 8px;
+  background: #FA5F5D;
+  border-radius: 4px;
+  margin-right: 53px;
+}
+
+/*---------天天特卖---------*/
+.dailysale-list li {
+  width: 290px;
+  height: 290px;
+  float: left;
+  margin: 0 10px 10px 0;
+  background: #fff;
+  box-shadow: 0px 0px 5px 0px #d8d7d7;
+}
+
+.dailysale-list li:nth-child(4n) {
+  margin: 0 0 10px 0;
+}
+
+.saleTit {
+  height: 40px;
+  line-height: 40px;
+  padding: 10px;
+}
+
+.saleTit .saleTit-head {
+  float: left;
+  width: 180px;
+}
+
+.saleTit .saleTit-head p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.saleTit span {
+  font-size: 16px;
+  height: 60px;
+  float: right;
+  color: #e02200;
+}
+
+.saleTit span b {
+  font-size: 24px;
 }
