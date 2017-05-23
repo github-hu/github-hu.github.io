@@ -790,3 +790,93 @@ h3 {
 .footer .promise.mtop30 .article dl .i1 {
   background-position: -58px -345px;
 }
+
+/*-----------show-----------*/
+.footer-show {
+  width: 1190px;
+  box-sizing: border-box;
+  margin: 0px auto;
+  padding: 30px 45px;
+  overflow: hidden;
+}
+
+.footer-show dl {
+  width: 200px;
+  float: left;
+}
+
+.footer-show dl dd, .footer-show dl dt {
+  float: left;
+  width: 140px;
+  font-family: "microsoft yahei";
+}
+
+.footer-show dl dt {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.footer-show dl dd {
+  line-height: 22px;
+  color: #666;
+}
+
+.footer-show .gouApp {
+  float: right;
+  width: 95px;
+  text-align: center;
+}
+
+.footer-show .gouApp h3 {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.footer-show .gouApp img {
+  width: 100%;
+}
+
+/*-----------footer-about--------------*/
+.footer-about {
+  width: 100%;
+}
+
+.footer-about .md {
+  text-align: center;
+  height: 24px;
+  line-height: 24px;
+}
+
+.footer-about .top10 {
+  margin-top: 10px;
+}
+
+.footer-about .footer-pic-item {
+  width: 990px;
+  height: 62px;
+  margin: 0 auto;
+  padding-top: 21px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.footer-about .ablink {
+  background: #444851;
+  line-height: 35px;
+  text-align: center;
+}
+
+.footer-about .ablink a {
+  color: #adadad;
+  padding: 0 17px;
+}
+
+.footer-about .ablink a:hover {
+  color: #fff;
+}
+
+.footer-about .ablink span {
+  color: #555;
+}

@@ -721,8 +721,83 @@ h3{font-weight:500;font-size:100%;}
     }
 }
 
+/*-----------show-----------*/
+.footer-show{
+    width:1190px;
+    box-sizing: border-box;
+    margin:0px auto;
+    padding: 30px 45px;
+    overflow: hidden;
+    
+    dl{
+        width:200px;
+        float:left;
+        dd,dt{
+                float: left;
+                width: 140px;
+                font-family: "microsoft yahei"
+            }
+            dt{
+                font-size: 15px;
+                font-weight: bold;
+                line-height: 24px;
+            }
+            dd{
+                line-height: 22px;
+                color: #666;
+            }
+        
+    }
+    .gouApp{
+        float:right;
+        width:95px;
+        text-align:center;
+        h3{
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 24px;
+        }
+        img{
+            width:100%;
+        }
+    }
+}
 
-
-
+/*-----------footer-about--------------*/
+.footer-about{
+    width:100%;
+    .md{
+       text-align:center;
+       height:24px;
+       line-height:24px;
+      
+        
+    }
+    .top10{ margin-top:10px;}
+    .footer-pic-item{
+        width: 990px;
+        height: 62px;
+        margin: 0 auto;
+        padding-top: 21px;
+        text-align: center;
+        overflow: hidden;
+    }
+    .ablink{
+        background: #444851;
+        line-height:35px;
+        text-align:center;
+        a{
+            color: #adadad;
+            padding: 0 17px;
+            &:hover{
+                color:#fff;
+            }
+        }
+        
+        span{
+            color: #555;
+        }
+    }
+}
 
 
