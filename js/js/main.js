@@ -4,9 +4,9 @@ define(['jquery','template'],function($,template){
 		
 		/*------load foot head-------------------*/
 		
-		$('.foot').load('http://localhost:8080/load.html .footer');
+		$('.foot').load('load.html .footer');
 		/*------start head  js-------------------*/
-		$('header').load('http://localhost:8080/load.html .head',function(){
+		$('header').load('load.html .head',function(){
 			var slide =$('.fr-slide');
 		
 			slide.on('mouseenter',function(){
@@ -68,7 +68,7 @@ define(['jquery','template'],function($,template){
 		/*------end head  js-------------------*/
 		
 		/*----------nav-menu--------------*/
-		$('nav').load('http://localhost:8080/load.html .search-item,.nav-item',function(){
+		$('nav').load('load.html .search-item,.nav-item',function(){
 			$('.nav-menu li').on("mouseenter",function(){
 				var index=$(this).index();
 				
