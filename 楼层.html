@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/楼层.css"/>
+	</head>
+	<body>
+		<div class="container"></div>
+		<script type="text/javascript" src="js/plug/template.js">
+			
+		</script>
+		<script id="floor" type="text/html">
+			{{each floor as v k}}
+			<div class="floor article mtop25">
+				<div class="layer">
+					<div class="leftCon">
+						<h3 class="floorTit">
+							<b>{{k}}</b>
+							{{v.type}}
+						</h3>
+						<div class="subCate">
+							{{each v.off as value}}
+							<a class="on" href="list.html">{{value}}</a>
+							{{/each}}
+						</div>
+						<div class="brand brTab">
+							<div class="prev"></div>
+							<div class="next"></div>
+							<div class="br-b">
+								<ul>
+									{{each v.pics as v}}
+									<li>
+										<a href="list.html"><img src="{{v.pr}}" alt="" /></a>
+										<a href="list.html"><img src="{{v.pr0}}" alt="" /></a>
+										<a href="list.html"><img src="{{v.pr1}}" alt="" /></a>
+										<a href="list.html"><img src="{{v.pr2}}" alt="" /></a>
+									</li>
+									{{/each}}
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="midFir">
+						<a class="topImg" href="list.html"><img src="{{v.midFir[0]}}" alt="" /></a>
+						<a class="botImg mtop10" href="list.html"><img src="{{v.midFir[1]}}" alt="" /></a>
+					</div>
+					<div class="midSec">
+						<a class="topImg" href="list.html"><img src="{{v.midSec[0]}}" alt="" /></a>
+						<a class="botImg mtop10" href="list.html"><img src="{{v.midSec[1]}}" alt="" /></a>
+					</div>
+					<div class="rightCon">
+						<a class="aImg" href="list.html"><img src="{{v.rightCon[0]}}" alt="" /></a>
+						<a class="aImg mtop10" href="list.html"><img src="{{v.rightCon[1]}}" alt="" /></a>
+						<a class="aImg mtop10" href="list.html"><img src="{{v.rightCon[2]}}" alt="" /></a>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			{{/each}}
+		</script>
+		<script src="js/lib/jquery-1.11.3.js"></script>
+		<script type="text/javascript">
+			$.getJSON("json/floor.json",function(date){
+					var html =template('floor',date);
+					$('.container').html(html);
+			});
+		</script>
+	</body>
+</html>

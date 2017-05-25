@@ -11,6 +11,7 @@ require.config({
 		"template":"plug/template",
 		"layer":"plug/layer/layer",
 		"main":"js/main",
+		"banner":"js/banner"
 		
 	},
 	//处理非AMD规范
@@ -19,6 +20,7 @@ require.config({
 		"cookie": ['jquery'],
 		"template": ['jquery'],
 		"layer": ['jquery'],
+		"banner": ['jquery']
 	
 		
 	}

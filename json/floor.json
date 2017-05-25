@@ -1,0 +1,300 @@
+{"floor": {
+		"1F": {
+			"id": "1F",
+			"type": "宝宝奶粉",
+			"off": ["牛奶粉","羊奶粉","有机奶粉","早产儿奶粉","乳糖不耐受","宝牛乳过敏","宜生菌奶粉","","0-6个月","6-12个月","1-2岁","3-6岁","儿童奶粉","2-3岁"],
+			"pics":[
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		}],
+		"midFir":["img/topImg.jpg","img/botImg.jpg"],
+		"midSec":["img/topImg1.jpg","img/botImg1.jpg"],
+		"rightCon":["img/botImg1.jpg","img/botImg1.jpg","img/botImg1.jpg"]	
+		},	
+		"2F": {
+			"id": "1F",
+			"type": "宝宝奶粉",
+			"off": ["宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉"],
+			"pics":[
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		}],
+		"midFir":["img/topImg.jpg","img/botImg.jpg"],
+		"midSec":["img/topImg1.jpg","img/botImg1.jpg"],
+		"rightCon":["img/botImg1.jpg","img/botImg1.jpg","img/botImg1.jpg"]	
+		},		
+		"3F": {
+			"id": "1F",
+			"type": "宝宝奶粉",
+			"off": ["宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉"],
+			"pics":[
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		}],
+		"midFir":["img/topImg.jpg","img/botImg.jpg"],
+		"midSec":["img/topImg1.jpg","img/botImg1.jpg"],
+		"rightCon":["img/botImg1.jpg","img/botImg1.jpg","img/botImg1.jpg"]	
+		},		
+		"4F": {
+			"id": "1F",
+			"type": "宝宝奶粉",
+			"off": ["宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉"],
+			"pics":[
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		}],
+		"midFir":["img/topImg.jpg","img/botImg.jpg"],
+		"midSec":["img/topImg1.jpg","img/botImg1.jpg"],
+		"rightCon":["img/botImg1.jpg","img/botImg1.jpg","img/botImg1.jpg"]	
+		},		
+		"5F": {
+			"id": "1F",
+			"type": "宝宝奶粉",
+			"off": ["宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉"],
+			"pics":[
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		}],
+		"midFir":["img/topImg.jpg","img/botImg.jpg"],
+		"midSec":["img/topImg1.jpg","img/botImg1.jpg"],
+		"rightCon":["img/botImg1.jpg","img/botImg1.jpg","img/botImg1.jpg"]	
+		},		
+		"6F": {
+			"id": "1F",
+			"type": "宝宝奶粉",
+			"off": ["宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉"],
+			"pics":[
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		}],
+		"midFir":["img/topImg.jpg","img/botImg.jpg"],
+		"midSec":["img/topImg1.jpg","img/botImg1.jpg"],
+		"rightCon":["img/botImg1.jpg","img/botImg1.jpg","img/botImg1.jpg"]	
+		},		
+		"7F": {
+			"id": "1F",
+			"type": "宝宝奶粉",
+			"off": ["宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉"],
+			"pics":[
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		}],
+		"midFir":["img/topImg.jpg","img/botImg.jpg"],
+		"midSec":["img/topImg1.jpg","img/botImg1.jpg"],
+		"rightCon":["img/botImg1.jpg","img/botImg1.jpg","img/botImg1.jpg"]	
+		},		
+		"8F": {
+			"id": "1F",
+			"type": "宝宝奶粉",
+			"off": ["宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉"],
+			"pics":[
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		}],
+		"midFir":["img/topImg.jpg","img/botImg.jpg"],
+		"midSec":["img/topImg1.jpg","img/botImg1.jpg"],
+		"rightCon":["img/botImg1.jpg","img/botImg1.jpg","img/botImg1.jpg"]	
+		},
+		"9F": {
+			"id": "1F",
+			"type": "宝宝奶粉",
+			"off": ["牛奶粉","羊奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉","宝宝奶粉"],
+			"pics":[
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		},
+		{
+				"pr":"img/small1.jpg",
+				"pr0":"img/small1.jpg",
+				"pr1":"img/small1.jpg",
+				"pr2":"img/small1.jpg"
+		}],
+		"midFir":["img/topImg.jpg","img/botImg.jpg"],
+		"midSec":["img/topImg1.jpg","img/botImg1.jpg"],
+		"rightCon":["img/botImg1.jpg","img/botImg1.jpg","img/botImg1.jpg"]	
+		}
+	}
+}

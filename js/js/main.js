@@ -142,9 +142,12 @@ define(['jquery','template'],function($,template){
 				});
 		});
 		
-		/*--------------猜你喜欢------------------*/
+		/*--------------楼层------------------*/
 		
-		
+		$.getJSON("json/floor.json",function(date){
+					var html =template('floor',date);
+					$('.your.article').after(html);
+			});
 		
 	})
 })

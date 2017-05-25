@@ -1,0 +1,181 @@
+@charset "utf-8";
+/*------floor--------*/
+.mtop10{
+    margin-top: 10px;
+}
+div.prev,div.next,b{
+    background: url(../img/icon_index.png) no-repeat;
+    background-position: -10000px;
+}
+.mtop25 {
+    margin-top: 25px;
+}
+.article {
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.layer{
+    width:1190px;
+    margin-top: 4px;
+    position: relative;
+    height: 490px;
+    margin:20px auto;
+    .leftCon{
+        width: 178px;
+        padding-top: 46px;
+        border: 1px solid #ededed;
+        background: #fff;
+        float: left;
+        margin-right: 10px;
+        .brand{
+            position:relative;
+            .prev {
+                position: absolute;
+                left: 5px;
+                top: 60px;
+                width: 30px;
+                height: 82px;
+                background-position: -308px -124px;
+                cursor: pointer;
+                z-index: 20;
+            }
+            .next {
+                position: absolute;
+                right: 5px;
+                top: 60px;
+                width: 30px;
+                height: 82px;
+                background-position: -345px -124px;
+                cursor: pointer;
+                z-index: 20;
+            }
+            .br-b{
+                width: 90px;
+                height: 207px;
+                margin: 0 auto;
+                overflow: hidden;
+                position: relative;
+                ul{
+                    width:360px;
+                    position:absolute;
+                    left:-90px;
+                    li{
+                        float:left;
+                        width:90px;
+                        a{
+                            display: block;
+                            width: 90px;
+                            height: 35px;
+                            margin-bottom: 15px;
+                            float: left; 
+                        }
+                    }
+                }
+            }
+        }
+        .floorTit {
+            background: #03a4fe;
+            border-color: #c9ebff; 
+            height: 42px;
+            margin-top: 4px;
+            width: 180px;
+            line-height: 40px;
+            position: absolute;
+            top: -4px;
+            left: 0px;
+            color: #fff;
+            font-size: 16px;
+            font-family: "microsoft yahei";
+            border-bottom: 4px solid #fff;
+            b{
+                display: block;
+                width: 30px;
+                height: 40px;
+                line-height: 50px;
+                margin: 0 11px 0 28px;
+                font-size: 18px;
+                text-align: center;
+                float: left;
+                position: relative;
+                top: -4px;
+                background-position: -59px -411px;
+            }
+        }
+        .subCate{
+            border-top: none;
+            overflow: hidden;
+            padding: 13px 0 13px 25px;
+            height: 210px;
+            .on{
+               color: #03a4fe;  
+            }
+            a{
+                display: block;
+                width: 62px;
+                height: 30px;
+                float: left;
+                line-height: 30px;
+                margin-right: 10px;
+                font-family: "microsoft yahei";
+                overflow: hidden;
+                
+            }
+            
+        }
+    }
+    .midFir{
+        width: 520px;
+        float: left;
+        margin-right: 10px;
+        a.topImg{
+            display: block;
+            width: 518px;
+            height: 322px;
+            border: 1px solid #ededed;
+            img{
+                width: 518px;
+                height: 322px;
+            }
+        }
+        a.botImg{
+            display: block;
+            width: 518px;
+            height: 155px;
+            border: 1px solid #ededed;
+        }
+    }
+    .midSec{
+        width: 230px;
+        float: left;
+        margin-right: 10px;
+        a.topImg {
+            display: block;
+            width: 228px;
+            height: 322px;
+            border: 1px solid #ededed;
+        }
+        a.botImg {
+            display: block;
+            width: 228px;
+            height: 155px;
+            border: 1px solid #ededed;
+            img{
+                width: 228px;
+                height: 155px;
+            }
+        }
+    }
+    .rightCon {
+        float: left;
+        a.aImg {
+            display: block;
+            height: 155px;
+            border: 1px solid #ededed;
+            img {
+                width: 228px;
+                height: 155px;
+            }
+        }
+    }
+}
