@@ -1197,3 +1197,87 @@ div.prev, div.next, b {
   width: 228px;
   height: 155px;
 }
+
+/*左固定导航栏*/
+.mui-lift {
+  position: fixed;
+  left: 50%;
+  top: 200px;
+  width: 35px;
+  margin-left: -635px;
+  z-index: 10;
+}
+
+.mui-lift .sn-nav-wrapper {
+  display: block;
+}
+
+.mui-lift .sn-nav-wrapper a.on font {
+  display: block;
+  line-height: 15px;
+  color: #e8a79c;
+}
+
+.mui-lift .sn-nav-wrapper a.on div {
+  display: none;
+}
+
+.mui-lift .sn-nav-wrapper a {
+  display: block;
+  width: 35px;
+  text-align: center;
+  color: #333;
+}
+
+.mui-lift .sn-nav-wrapper a font {
+  display: none;
+  border-bottom: 1px solid #e8a79c;
+  padding: 3px 0;
+  font-size: 12px;
+}
+
+.mui-lift .sn-nav-wrapper a div {
+  width: 35px;
+  height: 32px;
+  border-bottom: 1px solid #ccc;
+  padding: 2px 0;
+  display: block;
+  background: url(../img/icon_index.png) no-repeat;
+  background-position: -10000px 0;
+}
+
+.mui-lift .sn-nav-wrapper a .snbg1 {
+  background-position: -518px -58px;
+}
+
+.mui-lift .sn-nav-wrapper a .snbg2 {
+  background-position: -518px -276px;
+}
+
+.mui-lift .sn-nav-wrapper a .snbg3 {
+  background-position: -518px -145px;
+}
+
+.mui-lift .sn-nav-wrapper a .snbg4 {
+  background-position: -518px -191px;
+}
+
+.mui-lift .sn-nav-wrapper a .snbg5 {
+  background-position: -518px -235px;
+}
+
+.mui-lift .sn-nav-wrapper a .snbg6 {
+  background-position: -518px -235px;
+}
+
+.mui-lift .sn-nav-wrapper a .snbg7 {
+  background-position: -518px -319px;
+}
+
+.mui-lift .sn-nav-wrapper a .snbg8 {
+  background-position: -518px -404px;
+}
+
+.mui-lift .sn-nav-wrapper a .snbg9 {
+  background-position: -518px -359px;
+}

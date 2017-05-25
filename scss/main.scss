@@ -1085,3 +1085,77 @@ div.prev,div.next,b{
         }
     }
 }
+
+/*左固定导航栏*/
+
+.mui-lift{
+    
+    position: fixed;
+    left: 50%;
+    top: 200px;
+    width: 35px;
+    margin-left: -635px;
+    z-index: 10;
+    .sn-nav-wrapper{
+        display:block;
+        a.on font{
+            display: block;
+            line-height: 15px;
+            color: #e8a79c;
+        }
+        a.on div{
+            display: none;
+        }
+        a{
+            display: block;
+            width: 35px;   
+            text-align: center;
+            color: #333;
+            
+            font{
+                display: none;
+                border-bottom: 1px solid #e8a79c;
+                padding: 3px 0;
+                font-size: 12px; 
+            }
+            div{
+                width: 35px;
+                height: 32px;
+                border-bottom: 1px solid #ccc;
+                padding: 2px 0;
+                display: block;
+                background:url(../img/icon_index.png) no-repeat;
+                background-position: -10000px 0;
+            }
+            .snbg1{
+                background-position: -518px -58px;
+            }
+            .snbg2{
+                background-position: -518px -276px;
+            }
+            .snbg3{
+                background-position: -518px -145px;
+            }
+            .snbg4{
+                background-position: -518px -191px;
+            }
+            .snbg5{
+                background-position: -518px -235px;
+            }
+            .snbg6{
+                background-position: -518px -235px;
+            }
+            .snbg7{
+                background-position: -518px -319px;
+            }
+             .snbg8{
+                background-position: -518px -404px;
+            }
+             .snbg9{
+                background-position: -518px -359px;
+            }
+            
+        }
+    }
+    
+}
