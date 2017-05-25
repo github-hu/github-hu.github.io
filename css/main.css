@@ -1209,7 +1209,7 @@ div.prev, div.next, b {
 }
 
 .mui-lift .sn-nav-wrapper {
-  display: block;
+  display: none;
 }
 
 .mui-lift .sn-nav-wrapper a.on font {

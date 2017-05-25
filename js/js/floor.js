@@ -21,9 +21,9 @@ define(['jquery'],function($){
 					_this.timer = setTimeout(function(){
 						var scrollT =$('body').scrollTop();
 						if(scrollT>2500-_this.ch/2){
-							_this.floorNav.fadeIn();
+							_this.floorNav.stop().fadeIn();
 						}else{
-							_this.floorNav.fadeOut();
+							_this.floorNav.stop().fadeOut();
 						}	
 						_this.allFloor.each(function(i){
 							var h =$(this).height(),
