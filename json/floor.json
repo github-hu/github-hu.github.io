@@ -61,9 +61,9 @@
 				"pr1":"img/small1.jpg",
 				"pr2":"img/small1.jpg"
 		}],
-		"midFir":["img/topImg.jpg","img/botImg.jpg"],
-		"midSec":["img/topImg1.jpg","img/botImg1.jpg"],
-		"rightCon":["img/botImg1.jpg","img/botImg1.jpg","img/botImg1.jpg"]	
+		"midFir":["img/topImg02.jpg","img/botImg02.jpg"],
+		"midSec":["img/topImg2.jpg","img/botImg2.jpg"],
+		"rightCon":["img/botImg1.jpg","img/botImg2.jpg","img/botImg2.jpg"]	
 		},		
 		"3F": {
 			"id": "1F",
@@ -94,9 +94,9 @@
 				"pr1":"img/small1.jpg",
 				"pr2":"img/small1.jpg"
 		}],
-		"midFir":["img/topImg.jpg","img/botImg.jpg"],
-		"midSec":["img/topImg1.jpg","img/botImg1.jpg"],
-		"rightCon":["img/botImg1.jpg","img/botImg1.jpg","img/botImg1.jpg"]	
+		"midFir":["img/topImg03.jpg","img/botImg03.jpg"],
+		"midSec":["img/topImg3.jpg","img/botImg3.jpg"],
+		"rightCon":["img/botImg2.jpg","img/botImg3.jpg","img/botImg3.jpg"]	
 		},		
 		"4F": {
 			"id": "1F",
@@ -160,7 +160,7 @@
 				"pr1":"img/small1.jpg",
 				"pr2":"img/small1.jpg"
 		}],
-		"midFir":["img/topImg.jpg","img/botImg.jpg"],
+		"midFir":["img/topImg5.jpg","img/botImg5.jpg"],
 		"midSec":["img/topImg1.jpg","img/botImg1.jpg"],
 		"rightCon":["img/botImg1.jpg","img/botImg1.jpg","img/botImg1.jpg"]	
 		},		
