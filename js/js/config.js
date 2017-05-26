@@ -12,7 +12,8 @@ require.config({
 		"layer":"plug/layer/layer",
 		"main":"js/main",
 		"banner":"js/banner",
-		"floor":"js/floor"
+		"floor":"js/floor",
+		"smallbanner":"js/smallbanner"
 		
 		
 	},
@@ -20,10 +21,10 @@ require.config({
 	shim: {
 		"swiper": ['jquery'],
 		"cookie": ['jquery'],
-		"template": ['jquery'],
 		"layer": ['jquery'],
 		"banner": ['jquery'],
-		"floor": ['jquery']
+		"floor": ['jquery'],
+		"smallbanner": ['jquery']
 	
 		
 	}

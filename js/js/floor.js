@@ -1,10 +1,6 @@
 define(['jquery'],function($){
 		var floor = {
-			allFloor:null,
-			allFNav:null,
-			floorNav:null,
-			ch:null,
-			timer:null,
+			
 			init:function(){
 				this.allFloor=$('.floor');
 				this.allFNav=$('.sn-nav-wrapper a');

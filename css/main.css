@@ -803,6 +803,31 @@ h3 {
   width: 1190px;
   height: 450px;
   overflow: hidden;
+  position: relative;
+}
+
+.your-like-container .prev {
+  position: absolute;
+  left: 2px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  top: 183px;
+  width: 27px;
+  background-position: -201px -125px;
+  height: 84px;
+  z-index: 10;
+}
+
+.your-like-container .next {
+  position: absolute;
+  right: 2px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  top: 183px;
+  width: 27px;
+  background-position: -201px -125px;
+  height: 84px;
+  z-index: 10;
 }
 
 .your-like-container .guess-m {
@@ -1065,12 +1090,13 @@ div.prev, div.next, b {
 .layer .leftCon .brand .br-b ul {
   width: 360px;
   position: absolute;
-  left: -90px;
+  left: 0px;
 }
 
 .layer .leftCon .brand .br-b ul li {
-  float: left;
   width: 90px;
+  position: absolute;
+  left: 0;
 }
 
 .layer .leftCon .brand .br-b ul li a {
@@ -1204,7 +1230,7 @@ div.prev, div.next, b {
   left: 50%;
   top: 200px;
   width: 35px;
-  margin-left: -635px;
+  margin-left: -655px;
   z-index: 10;
 }
 

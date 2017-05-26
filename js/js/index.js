@@ -7,7 +7,7 @@
 require(['config'],function(){
 
 	//核心工作
-	require(['jquery','layer','template','main','banner','floor'],function(){
+	require(['jquery','layer','template','main','banner','floor','smallbanner'],function(){
 		 layer.config({
 		    path: 'js/plug/layer/'
 		  });

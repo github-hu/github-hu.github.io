@@ -29,12 +29,12 @@ define(['jquery'],function($){
 					.stop()
 					.animate({
 						top:-8
-					})
+					},13)
 					.siblings()
 					.stop()
 					.animate({
 						top:0
-					});
+					},13);
 					_this.switch()	
 					
 

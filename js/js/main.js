@@ -1,4 +1,4 @@
-define(['jquery','template','floor'],function($,template,floor){
+define(['jquery','template','floor','smallbanner'],function($,template,floor,b){
 		$(function(){
 		
 		
@@ -147,6 +147,23 @@ define(['jquery','template','floor'],function($,template,floor){
 					var html =template('floor',date);
 					$('.your.article').after(html);	
 					floor.init();
+					$('.your-like-container').banner(
+						{
+							imgNum:$('.your-like-container').find("ul").size(),
+			children:$('.your-like-container').find("ul"),
+			frquency:3000
+						}	
+					);
+					$('.brand').eq(1).banner();
+					$('.brand').eq(2).banner();
+					$('.brand').eq(3).banner();
+					$('.brand').eq(4).banner();
+					$('.brand').eq(5).banner();
+					$('.brand').eq(6).banner();
+					$('.brand').eq(7).banner();
+					$('.brand').eq(8).banner();
+					$('.brand').eq(0).banner();
+					
 			});
 		
 	})
