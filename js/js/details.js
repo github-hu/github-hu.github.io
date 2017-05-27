@@ -7,7 +7,7 @@
 require(['config'],function(){
 
 	//核心工作
-	require(['jquery','layer','template'],function(){
+	require(['jquery','layer','template','fangdajing'],function($,b,template,d){
 		 layer.config({
 		    path: 'js/plug/layer/'
 		  });
@@ -80,10 +80,16 @@ require(['config'],function(){
 			$('.nav-menu li').on("mouseenter",function(){
 				var index=$(this).index();
 				$('.nav-item-t-l').on("mouseenter",function(){
-					$('.nav-item .nav-menu').stop().slideDown();
+					$('.nav-item .nav-menu ul').stop().animate({
+						height:480,
+						display:'block'
+					});
 				});
-				$('.nav-item').on("mouseleave",function(){
-					$('.nav-item .nav-menu').stop().slideUp();
+				$('.nav-menu').on("mouseleave",function(){
+					$('.nav-item .nav-menu ul').stop().animate({
+						height:0,
+						display:'none'
+					})
 				});
 				
 				$('.menu-con .menu-con-item').eq(index)
@@ -124,6 +130,12 @@ require(['config'],function(){
 			});
 		});
 		/*--------------轮播区------------------*/
-
+		$.getJSON('json/data.json',function(result){
+				//保留数据
+				
+				var list = template('type-list',result);
+				$('.color-content').html( list );
+		});
+		$('.glass').zoom();
 	})
 })

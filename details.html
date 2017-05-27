@@ -5,7 +5,14 @@
 		<title></title>
 		<link rel="stylesheet" href="css/public.css" />
 		<link rel="stylesheet" type="text/css" href="css/load.css"/>
-		<link rel="stylesheet" type="text/css" href="list.css"/>
+		<link rel="stylesheet" type="text/css" href="css/details.css"/>
+		<script id="type-list" type="text/html">
+			{{each color as v k}}
+				<li class="tb-con-item" data-id="{{k}}">
+					<a href="javascript:;">{{v.type}}</a>
+				</li>
+			{{/each}}
+		</script>
 		<script data-main="js/js/details.js" src="js/plug/require.js"></script>
 
 	</head>
@@ -13,6 +20,96 @@
 		<header></header>
 		<!--搜索栏-->
 		<nav></nav>
+		
+		<div class="container">
+			<div class="goods-detail" data-gid="10001"></div>
+			<div class="glass">
+				<!--放大镜部分-->
+				<div class="glass-main">
+					<!--中图滤镜-->
+					<div class="middle">
+						<img class="middle-pic" src="http://img.sjgo365.com/ProductImage450/21493925.jpg " alt="" />
+						<div class="filter"></div>
+						<div class="middle-wrap"></div>
+					</div>
+					<!--大图-->
+					<div class="large">
+						<img class="large-pic" src="http://img.sjgo365.com/ProductImage450/21493925.jpg" alt="" />
+					</div>
+				</div>
+				<!--图片选择区-->
+				<div class="glass-slide">
+					<span class="arrow arrow-left"></span>
+					<span class="arrow arrow-right"></span>
+					<div class="slide-main">
+						<ul id="spec-list" class="jcarousel-list jcarousel-list-horizontal" style="width: 650px; ">
+		                    <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-1 jcarousel-item-1-horizontal" jcarouselindex="1">
+		                        <img class="active" src="http://img.sjgo365.com/ProductImage80/21493925.jpg" onerror="this.onerror=null;this.src='/Content/themes/base/images/NoPic80.jpg';" simg="http://img.sjgo365.com/ProductImage450/21493925.jpg  " bimg="http://img.sjgo365.com/ProductImage800/21493925.jpg  ">
+		                    </li>
+		                    <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-2 jcarousel-item-2-horizontal" jcarouselindex="2">
+		                        <img class="" src="http://img.sjgo365.com/ProductImage80/1_21493925.jpg" onerror="this.onerror=null;this.src='/Content/themes/base/images/NoPic80.jpg';" simg="http://img.sjgo365.com/ProductImage450/1_21493925.jpg  " bimg="http://img.sjgo365.com/ProductImage800/1_21493925.jpg  ">
+		                    </li>
+		                    <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-3 jcarousel-item-3-horizontal" jcarouselindex="3">
+		                        <img class="" src="http://img.sjgo365.com/ProductImage80/2_21493925.jpg" onerror="this.onerror=null;this.src='/Content/themes/base/images/NoPic80.jpg';" simg="http://img.sjgo365.com/ProductImage450/2_21493925.jpg  " bimg="http://img.sjgo365.com/ProductImage800/2_21493925.jpg  ">
+		                    </li>
+		                    <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-4 jcarousel-item-4-horizontal" jcarouselindex="4">
+		                        <img class="" src="http://img.sjgo365.com/ProductImage80/3_21493925.jpg" onerror="this.onerror=null;this.src='/Content/themes/base/images/NoPic80.jpg';" simg="http://img.sjgo365.com/ProductImage450/3_21493925.jpg  " bimg="http://img.sjgo365.com/ProductImage800/3_21493925.jpg  ">
+		                    </li>
+		                    <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-5 jcarousel-item-5-horizontal" jcarouselindex="5">
+		                        <img class="" src="http://img.sjgo365.com/ProductImage80/4_21493925.jpg" onerror="this.onerror=null;this.src='/Content/themes/base/images/NoPic80.jpg';" simg="http://img.sjgo365.com/ProductImage450/4_21493925.jpg  " bimg="http://img.sjgo365.com/ProductImage800/4_21493925.jpg  ">
+		                    </li>
+		                    <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-6 jcarousel-item-6-horizontal" jcarouselindex="6">
+		                        <img class="" src="http://img.sjgo365.com/ProductImage80/5_21493925.jpg" onerror="this.onerror=null;this.src='/Content/themes/base/images/NoPic80.jpg';" simg="http://img.sjgo365.com/ProductImage450/5_21493925.jpg  " bimg="http://img.sjgo365.com/ProductImage800/5_21493925.jpg  ">
+		                    </li>
+	            		</ul>
+					</div>
+				</div>
+			</div>
+			<!--商品信息-->
+			<div class="right">
+					<h1 class="goods-title">ETS五代 笔记本抽风式散热器侧吸式智能电脑散热风扇14寸15.6寸17</h1>
+					<div class="price">
+						<span class="title">促销价</span>
+						<span class="price-wrap">￥<span class="goods-price">89.00</span></span>
+					</div>
+					<dl class="tb-prop color clearfix">
+						<dt class="tb-title">颜色</dt>
+						<dd class="tb-con"> 
+							<ul class="tab-content color-content">
+								<li class="tb-con-item" data-id="1000101">
+									<a href="javascript:;">USB显示版白色</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="tb-prop amount clearfix">
+						<dt class="tb-title">数量</dt>
+						<dt class="tb-con">
+							<div class="amount-item amount-op">
+								<input type="text" class="amount-input" value="1">
+								<a href="javascript:;" class="amount-increase">+</a>
+								<a href="javascript:;" class="amount-decrease">-</a>
+							</div>
+							<span class="amount-item">件</span>
+							<div class="amount-item stock">
+								库存<span class="stock-num">999</span>件
+							</div>
+						</dt>
+					</dl>
+					<dl class="tb-prop size clearfix">
+						<dt class="tb-title">&nbsp;</dt>
+						<dt class="tb-con">
+							<div class="user-option option-bynow">
+								<a href="#">立即购买</a>
+							</div>
+							<div class="user-option option-addCart">
+								<a href="#">加入购物车</a>
+							</div>
+						</dt>
+					</dl>
+				</div>
+
+		</div>
 		
 		
 		

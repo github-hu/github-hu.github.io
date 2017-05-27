@@ -1,0 +1,45 @@
+{
+	"goods_id": 10001,
+	"goods_name": "家居服浴衣睡袍睡衣浴袍男女秋冬季加厚法兰绒长袖可爱珊瑚绒情侣",
+	"goods_price": 148.00,
+	"goods_pic_small": "img/pic1-small.jpg",
+	"goods_pic_large": "img/pic1-large.jpg",
+	"color": {
+		"1000101": {
+			"id": "1000101",
+			"type": "USB显示版白色",
+			"sale_price": "89.00",
+			"stock": 12
+		},
+		"1000102": {
+			"id": "1000102",
+			"type": "USB显示版黑色",
+			"sale_price": "89.00",
+			"stock": 74
+		},
+		"1000103": {
+			"id": "1000103",
+			"type": "强力双电源供电版黑色（外接电源+USB）",
+			"sale_price": "89.00",
+			"stock": 307
+		},
+		"1000104": {
+			"id": "1000104",
+			"type": "USB标准版黑色",
+			"sale_price": "78.00",
+			"stock": 39
+		},
+		"1000105": {
+			"id": "1000105",
+			"type": "双电源（外接电源+USB线）带显示款黑色",
+			"sale_price": "99.00",
+			"stock": 399
+		},
+		"1000106": {
+			"id": "1000106",
+			"type": "双电源（外接电源+USB线）带显示款白色",
+			"sale_price": "99.00",
+			"stock": 56
+		}
+	}
+}

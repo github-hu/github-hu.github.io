@@ -81,10 +81,14 @@ require(['config'],function(){
 			$('.nav-menu li').on("mouseenter",function(){
 				var index=$(this).index();
 				$('.nav-item-t-l').on("mouseenter",function(){
-					$('.nav-item .nav-menu').stop().slideDown();
+					$('.nav-item .nav-menu').stop().animate({
+						height:480
+					});
 				});
 				$('.nav-item').on("mouseleave",function(){
-					$('.nav-item .nav-menu').stop().slideUp();
+					$('.nav-item .nav-menu').stop().animate({
+						height:0
+					});
 				});
 				
 				$('.menu-con .menu-con-item').eq(index)
@@ -124,12 +128,25 @@ require(['config'],function(){
 				},200);
 			});
 		});
-		/*--------------轮播区------------------*/
-		  $.getJSON("json/list.json",function(date){
-					var html =template('sale-list',date);
-					$('.sale-list').html(html);
+		/*--------------轮播区------------------*/ 
+		var id=query("id");
+		  $.getJSON("json/dailysale.json",function(date){
+		  	console.log(date);
+				for(var a=0;a<date.goods.lengths;a++){
+					console.log(date.goods[a].id)
+					console.log(id==date.goods[a].id)
+					if(id==date.goods[a].id){
+						var img1=document.createElement("img");
+						img1.src=date.goods[a].src;
+						div1.appendChild(img1)
+					}
+				}
+					
+				
 			});
 		  
+		  
+		
 		  
 		  
 		/* $(document).on('click', function() {
@@ -138,6 +155,28 @@ require(['config'],function(){
 		    })
 		
 		});*/
+		function query(_name){	
+		var str = location.href;	// 把当前页面的url取出
+		var arr = str.split("?");
+		if( arr.length > 1 ){
+			// 表示有问号，即有数据
+			// arr[1] 表示所有的参数    例如："id=4&p=2&t=3"
+			var col = arr[1].split("&");
+			var l = col.length;
+			for( var i=0; i<l; i++ ){
+				// col[i] 表示其中一个数据，例如："id=4"
+				var c = col[i].split("=");
+				// c 表示其中一个数据的数组，例如：["id", "4"]
+				if( c[0] == _name ){
+					return c[1];
+				}
+			}
+			return "";
+		}else{
+			// 表示没有问号，即没有数据
+			return "";
+		}
+	}
 
 	})
 })

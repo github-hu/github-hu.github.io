@@ -13,7 +13,8 @@ require.config({
 		"main":"js/main",
 		"banner":"js/banner",
 		"floor":"js/floor",
-		"smallbanner":"js/smallbanner"
+		"smallbanner":"js/smallbanner",
+		"fangdajing":"js/fangdajing1"
 		
 		
 	},
@@ -24,7 +25,8 @@ require.config({
 		"layer": ['jquery'],
 		"banner": ['jquery'],
 		"floor": ['jquery'],
-		"smallbanner": ['jquery']
+		"smallbanner": ['jquery'],
+		"fangdajing": ['jquery']
 	
 		
 	}
