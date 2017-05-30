@@ -1,6 +1,7 @@
 {"goods":[
-		{
+		{		"id":"1",
 				"src":"img/38.jpg",
+				"smallsrc":["img/smallsrc0.jpg","img/smallsrc1.jpg","img/smallsrc2.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -8,8 +9,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"2",
 				"src":"img/39.jpg",
+				"smallsrc":["img/smallsrc20.jpg","img/smallsrc21.jpg","img/smallsrc22.jpg","img/smallsrc23.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -17,8 +19,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"3",
 				"src":"img/40.jpg",
+				"smallsrc":["img/smallsrc30.jpg","img/smallsrc31.jpg","img/smallsrc32.jpg","img/smallsrc33.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -26,8 +29,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"4",
 				"src":"img/41.jpg",
+				"smallsrc":["img/smallsrc40.jpg","img/smallsrc41.jpg","img/smallsrc42.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -35,8 +39,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"5",
 				"src":"img/38.jpg",
+				"smallsrc":["img/smallsrc0.jpg","img/smallsrc1.jpg","img/smallsrc2.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -44,8 +49,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"6",
 				"src":"img/39.jpg",
+				"smallsrc":["img/smallsrc20.jpg","img/smallsrc21.jpg","img/smallsrc22.jpg","img/smallsrc23.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -53,8 +59,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"7",
 				"src":"img/40.jpg",
+				"smallsrc":["img/smallsrc30.jpg","img/smallsrc31.jpg","img/smallsrc32.jpg","img/smallsrc33.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -62,8 +69,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"8",
 				"src":"img/41.jpg",
+				"smallsrc":["img/smallsrc40.jpg","img/smallsrc41.jpg","img/smallsrc42.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -71,8 +79,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"9",
 				"src":"img/38.jpg",
+				"smallsrc":["img/smallsrc0.jpg","img/smallsrc1.jpg","img/smallsrc2.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -80,8 +89,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"10",
 				"src":"img/39.jpg",
+				"smallsrc":["img/smallsrc20.jpg","img/smallsrc21.jpg","img/smallsrc22.jpg","img/smallsrc23.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -89,8 +99,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"11",
 				"src":"img/40.jpg",
+				"smallsrc":["img/smallsrc30.jpg","img/smallsrc31.jpg","img/smallsrc32.jpg","img/smallsrc33.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -98,8 +109,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"12",
 				"src":"img/41.jpg",
+				"smallsrc":["img/smallsrc40.jpg","img/smallsrc41.jpg","img/smallsrc42.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -107,8 +119,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"13",
 				"src":"img/38.jpg",
+				"smallsrc":["img/smallsrc0.jpg","img/smallsrc1.jpg","img/smallsrc2.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -116,8 +129,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"14",
 				"src":"img/39.jpg",
+				"smallsrc":["img/smallsrc20.jpg","img/smallsrc21.jpg","img/smallsrc22.jpg","img/smallsrc23.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -125,8 +139,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"15",
 				"src":"img/40.jpg",
+				"smallsrc":["img/smallsrc30.jpg","img/smallsrc31.jpg","img/smallsrc32.jpg","img/smallsrc33.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -134,8 +149,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"16",
 				"src":"img/41.jpg",
+				"smallsrc":["img/smallsrc40.jpg","img/smallsrc41.jpg","img/smallsrc42.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -143,8 +159,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"17",
 				"src":"img/38.jpg",
+				"smallsrc":["img/smallsrc0.jpg","img/smallsrc1.jpg","img/smallsrc2.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -152,8 +169,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"18",
 				"src":"img/39.jpg",
+				"smallsrc":["img/smallsrc20.jpg","img/smallsrc21.jpg","img/smallsrc22.jpg","img/smallsrc23.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -161,8 +179,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"19",
 				"src":"img/40.jpg",
+				"smallsrc":["img/smallsrc30.jpg","img/smallsrc31.jpg","img/smallsrc32.jpg","img/smallsrc33.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -170,8 +189,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"20",
 				"src":"img/41.jpg",
+				"smallsrc":["img/smallsrc40.jpg","img/smallsrc41.jpg","img/smallsrc42.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -179,8 +199,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"21",
 				"src":"img/38.jpg",
+				"smallsrc":["img/smallsrc0.jpg","img/smallsrc1.jpg","img/smallsrc2.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -188,8 +209,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"22",
 				"src":"img/39.jpg",
+				"smallsrc":["img/smallsrc20.jpg","img/smallsrc21.jpg","img/smallsrc22.jpg","img/smallsrc23.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -197,8 +219,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"23",
 				"src":"img/40.jpg",
+				"smallsrc":["img/smallsrc30.jpg","img/smallsrc31.jpg","img/smallsrc32.jpg","img/smallsrc33.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -206,8 +229,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"24",
 				"src":"img/41.jpg",
+				"smallsrc":["img/smallsrc40.jpg","img/smallsrc41.jpg","img/smallsrc42.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -215,8 +239,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"25",
 				"src":"img/38.jpg",
+				"smallsrc":["img/smallsrc0.jpg","img/smallsrc1.jpg","img/smallsrc2.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -224,8 +249,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"26",
 				"src":"img/39.jpg",
+				"smallsrc":["img/smallsrc20.jpg","img/smallsrc21.jpg","img/smallsrc22.jpg","img/smallsrc23.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -233,8 +259,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"27",
 				"src":"img/40.jpg",
+				"smallsrc":["img/smallsrc30.jpg","img/smallsrc31.jpg","img/smallsrc32.jpg","img/smallsrc33.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",
@@ -242,80 +269,9 @@
 				"piece":"￥56"
 				
 		},
-		{
+		{		"id":"28",
 				"src":"img/41.jpg",
-				"head":"澳大利亚直邮",
-				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
-				"sale":"￥28",
-				"salez":"5.5折",
-				"piece":"￥56"
-				
-		},
-		{
-				"src":"img/38.jpg",
-				"head":"澳大利亚直邮",
-				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
-				"sale":"￥28",
-				"salez":"5.5折",
-				"piece":"￥56"
-				
-		},
-		{
-				"src":"img/39.jpg",
-				"head":"澳大利亚直邮",
-				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
-				"sale":"￥28",
-				"salez":"5.5折",
-				"piece":"￥56"
-				
-		},
-		{
-				"src":"img/40.jpg",
-				"head":"澳大利亚直邮",
-				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
-				"sale":"￥28",
-				"salez":"5.5折",
-				"piece":"￥56"
-				
-		},
-		{
-				"src":"img/41.jpg",
-				"head":"澳大利亚直邮",
-				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
-				"sale":"￥28",
-				"salez":"5.5折",
-				"piece":"￥56"
-				
-		},
-		{
-				"src":"img/38.jpg",
-				"head":"澳大利亚直邮",
-				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
-				"sale":"￥28",
-				"salez":"5.5折",
-				"piece":"￥56"
-				
-		},
-		{
-				"src":"img/39.jpg",
-				"head":"澳大利亚直邮",
-				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
-				"sale":"￥28",
-				"salez":"5.5折",
-				"piece":"￥56"
-				
-		},
-		{
-				"src":"img/40.jpg",
-				"head":"澳大利亚直邮",
-				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
-				"sale":"￥28",
-				"salez":"5.5折",
-				"piece":"￥56"
-				
-		},
-		{
-				"src":"img/41.jpg",
+				"smallsrc":["img/smallsrc40.jpg","img/smallsrc41.jpg","img/smallsrc42.jpg"],
 				"head":"澳大利亚直邮",
 				"p":"澳佳宝BLACKMORES维生素B族缓压配方 62片",
 				"sale":"￥28",

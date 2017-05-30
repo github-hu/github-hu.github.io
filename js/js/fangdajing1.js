@@ -58,7 +58,8 @@ jQuery.fn.zoom=function(opt){
 				$('.middle-pic').attr({"src":src});
 				$('.large-pic').attr({"src":bsrc});
 				
-				$('.active').removeClass('active')
+				$('.select').removeClass('select');
+				$('.active').removeClass('active');
 				$(this).addClass('active');
 			});
 			var index = 0;

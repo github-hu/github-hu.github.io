@@ -129,13 +129,57 @@ require(['config'],function(){
 				},200);
 			});
 		});
-		/*--------------轮播区------------------*/
+		/*--------------------------------*/
 		$.getJSON('json/data.json',function(result){
-				//保留数据
-				
+				//保留数据z
 				var list = template('type-list',result);
 				$('.color-content').html( list );
 		});
-		$('.glass').zoom();
+		
+		
+		function query(_name){	
+		var str = location.href;	// 把当前页面的url取出
+		var arr = str.split("?");
+		if( arr.length > 1 ){
+			// 表示有问号，即有数据
+			// arr[1] 表示所有的参数    例如："id=4&p=2&t=3"
+			var col = arr[1].split("&");
+			var l = col.length;
+			for( var i=0; i<l; i++ ){
+				// col[i] 表示其中一个数据，例如："id=4"
+				var c = col[i].split("=");
+				// c 表示其中一个数据的数组，例如：["id", "4"]
+				if( c[0] == _name ){
+					return c[1];
+				}
+			}
+			return "";
+		}else{
+			// 表示没有问号，即没有数据
+			return "";
+		}
+	}
+		var id=query("id");
+		$.get("json/list.json",function(str){
+			
+			var shop=str.goods;
+			for(var a=0;a<shop.length;a++){
+				
+				if(shop[a].id==id){
+					
+					var goods =shop[a];
+					console.log(goods)		
+					var list = template('product',goods);
+					$('.glass').html( list );
+					//console.log(1)
+					$('.glass').zoom();
+					//img1.src=shop[a].src;
+				}
+			}
+		})
+		
+		
+		
+		
 	})
 })

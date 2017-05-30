@@ -131,13 +131,6 @@ define(['jquery','template','floor','smallbanner'],function($,template,floor,b){
 						left:-12.5,
 						top:-10
 					});
-					
-					
-					
-					$('.dailysale-list li').on('click',function(){
-						location.href="list.html?id="+$(this).attr('ace');
-						console.log(this.ace)
-					})
 				});
 				$('.dailysale-list li').on("mouseleave","img",function(){
 					$(this).stop().animate({

@@ -7,12 +7,12 @@
 		<link rel="stylesheet" type="text/css" href="css/list.css"/>
 		<script data-main="js/js/list.js" src="js/plug/require.js"></script>
 		<script id="sale-list" type="text/html">
-			<div class="guess-m">					
+			<div class="guess-m">				
 					<ul>
 						{{each goods as v}}
-						<li>
-							<a href="list.html"><img src="{{v.src}}" alt="" /></a>
-							<h3><a href="list.html"><font class="red">{{v.head}}</font>{{v.p}}</a></h3>
+						<li data = "{{v.id}}">
+							<a><img src="{{v.src}}" alt="" /></a>
+							<h3><a><font class="red">{{v.head}}</font>{{v.p}}</a></h3>
 							<p><b class="red">{{v.sale}}</b>{{v.salez}}</p>
 							<span>价格<b>{{v.piece}}</b></span>
 						</li>
@@ -30,11 +30,7 @@
 			<img src="img/QQ截图20170526160231.png" alt="" />
 		</div>
 		<div class="sale-list"></div>
-		
-		
-		
-		
-		
+			
 		<div id="div1"></div>
 				<!--尾部-->
 		<div class="foot"></div>
