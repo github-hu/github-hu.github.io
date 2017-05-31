@@ -15,7 +15,7 @@ define(['jquery'],function($){
 				$(window).scroll(function(){
 					clearTimeout(_this.timer);
 					_this.timer = setTimeout(function(){
-						var scrollT =$('body').scrollTop();
+						var scrollT =$(document).scrollTop();
 						if(scrollT>2500-_this.ch/2){
 							_this.floorNav.stop().fadeIn();
 						}else{
