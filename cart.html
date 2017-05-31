@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/cart.css" />
+		<link rel="stylesheet" href="css/load.css" />
+		<script type="text/html" id="cart-list">
+			<!-- cart  data -->
+			{{each cart as v k}}
+				<ul class="cart-goods-item clear" data-id="{{k}}">
+					<li class="td td-checkbox">
+						<input type="checkbox" />
+					</li>
+					<li class="td td-gname">
+						<div class="td-inner clear">
+							<div class="goods-img">
+								<img src="{{data.goods_pic_small}}">
+							</div>
+							<div class="goods-name">
+								<a href="#">{{data.goods_name}}</a>
+							</div>
+						</div>
+					</li>
+					<li class="td td-gstyle">
+						<div class="gcolor">
+							<span class="">颜色分类：</span>
+							<span class="color-type">{{data.color[k].type}}</span>
+						</div>
+					</li>
+					<li class="td td-gprice">
+						<span>￥</span>
+						<span class="goods-price">{{data.color[k].sale_price}}</span>
+					</li>
+					<li class="td td-gamount">
+						<div class="td-amount-wrapper" data-stock="{{data.color[k].stock}}">
+							<span class="amount-option amount-decrease">-</span>
+							<input class="amount-option amount-input" type="text" value="{{v.amount}}">
+							<span class="amount-option amount-increase">+</span>
+						</div>
+					</li>
+					<li class="td td-gmoney">
+						<span>￥</span>
+						<span class="goods-money">{{data.color[k].sale_price * v.amount}}</span>
+					</li>
+					<li class="td td-option">
+						<a href="#" class="delete">删除</a>
+					</li>
+				</ul>
+			{{/each}}
+		</script>
+
+		
+		
+	</head>
+	<body>
+		
+		<div class="container">
+			<div class="top-nav">
+				
+			</div>
+			<div class="cart">
+				<div class="cart-top">
+					<img src="img/nav-top.jpg"> 
+				</div>
+				<div class="cart-main">
+					<!--标题-->
+					<div class="cart-main-title">
+						<ul class="clear">
+							<li class="td td-checkbox">
+								<input type="checkbox" class="select-all-btn"/>
+								<span>全选</span>
+							</li>
+							<li class="td td-gname">
+								<div class="td-inner">商品</div>
+							</li>
+							<li class="td td-gstyle">商品信息</li>
+							<li class="td td-gprice">单价</li>
+							<li class="td td-gamount">数量</li>
+							<li class="td td-gmoney">金额</li>
+							<li class="td td-option">操作</li>
+						</ul>
+					</div>
+					<!--商品区-->
+					<div class="cart-main-content">
+						
+
+					</div>
+					<!--操作区-->
+					<div class="cart-option clear">
+						<div class="options clear">
+							<div class="options-item select-all">
+								<input type="checkbox" class="select-all-btn">
+								<span>全选</span>
+							</div>
+							<div class="options-item delete">
+								<a href="#">删除</a>
+							</div>
+						</div>
+						<div class="cart-info clear">
+							<div class="info-item goods-amount">
+								已选商品<span class="user-goods-amount">0</span>件
+							</div>
+							<div class="info-item goods-money">
+								合计：不含运费<span class="user-goods-money">0.00</span>
+							</div>
+							<div class="info-item go-pay">结算</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="foot"></div>
+		<script src="js/lib/jquery-1.11.3.js" ></script>
+		<script src="js/plug/jquery.cookie.js" ></script>
+		<script src="js/plug/template.js"></script>
+		<script src="js/plug/layer/layer.js" ></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.foot').load('load.html .footer-about');
+				/*------start head  js-------------------*/
+				$('.top-nav').load('load.html .head',function(){
+					var slide =$('.fr-slide');
+				
+					slide.on('mouseenter',function(){
+						$(this).find('.slide_gou')
+						.css({
+							'border-color': '#ccc',
+						}).stop().slideDown(300)
+						.end().find('.phone')
+						.css({
+							'background-position':'-44px 0'
+						})
+						.end().find('.homeicon')
+						.css({
+							'background-position':'-69px 0'
+						})
+						.end()
+						.css({
+							background:"#fff",
+							'border-color': '#ccc',	
+						})
+						
+						
+						
+					});
+					
+					slide.on('mouseleave',function(){
+						$(this).find('.slide_gou')
+						.css({
+							'border-color': '#fff',
+						}).stop().slideUp(200)
+						.end().find('.phone')
+						.css({
+							'background-position':'-24px 0'
+						})
+						.end().find('.homeicon')
+						.css({
+							'background-position':'-89px 0'
+						})
+						.end()
+						.css({
+							background:"#f5f5f5",
+							'border-color': '#f5f5f5',
+						});
+						
+					});
+					
+					$('.fr-icon .icoll').on('mouseenter',function(){
+						$(this).css({
+							'background-position':'-41px -21px'
+						})
+					});
+					$('.fr-icon .icoll').on('mouseleave',function(){
+						$(this).css({
+							'background-position':'-64px -21px'
+						})
+					});
+				})
+			});
+		
+		</script>
+		<script src="js/js/cart.js" ></script>
+	</body>
+</html>
+
+
+

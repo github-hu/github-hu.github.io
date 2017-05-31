@@ -6,11 +6,10 @@
 		<link rel="stylesheet" href="css/public.css" />
 		<link rel="stylesheet" type="text/css" href="css/load.css"/>
 		<link rel="stylesheet" type="text/css" href="css/details.css"/>
+		
 		<script id="type-list" type="text/html">
 			{{each color as v k}}
-				<li class="tb-con-item" data-id="{{k}}">
-					<a href="javascript:;">{{v.type}}</a>
-				</li>
+				<span class="sort-list" data-id="{{k}}">{{v.type}}</span>
 			{{/each}}
 		</script>
 		<script data-main="js/js/details.js" src="js/plug/require.js"></script>
@@ -51,6 +50,20 @@
 		<!--搜索栏-->
 		<nav></nav>
 		
+		
+		<div class="breadline shareW">
+			<a href="/">首页</a>
+			>
+			<a href="">海外直邮</a>
+			>
+			<a href="">按分类</a>
+			>
+			<a href="">成人保健品</a>
+			>
+			<a href="">澳佳宝BLACKMORES维生素B族缓压配方 62片（海外版）</a>
+		</div>
+		
+		
 		<div class="container">
 			<div class="goods-detail" data-gid="10001"></div>
 			<div class="glass">
@@ -58,52 +71,100 @@
 				
 			</div>
 			<!--商品信息-->
-			<div class="right">
-					<h1 class="goods-title">ETS五代 笔记本抽风式散热器侧吸式智能电脑散热风扇14寸15.6寸17</h1>
-					<div class="price">
-						<span class="title">促销价</span>
-						<span class="price-wrap">￥<span class="goods-price">89.00</span></span>
-					</div>
-					<dl class="tb-prop color clearfix">
-						<dt class="tb-title">颜色</dt>
-						<dd class="tb-con"> 
-							<ul class="tab-content color-content">
-								<li class="tb-con-item" data-id="1000101">
-									<a href="javascript:;">USB显示版白色</a>
-								</li>
-							</ul>
-						</dd>
-					</dl>
-					<dl class="tb-prop amount clearfix">
-						<dt class="tb-title">数量</dt>
-						<dt class="tb-con">
-							<div class="amount-item amount-op">
-								<input type="text" class="amount-input" value="1">
-								<a href="javascript:;" class="amount-increase">+</a>
-								<a href="javascript:;" class="amount-decrease">-</a>
-							</div>
-							<span class="amount-item">件</span>
-							<div class="amount-item stock">
-								库存<span class="stock-num">999</span>件
-							</div>
-						</dt>
-					</dl>
-					<dl class="tb-prop size clearfix">
-						<dt class="tb-title">&nbsp;</dt>
-						<dt class="tb-con">
-							<div class="user-option option-bynow">
-								<a href="#">立即购买</a>
-							</div>
-							<div class="user-option option-addCart">
-								<a href="#">加入购物车</a>
-							</div>
-						</dt>
-					</dl>
-				</div>
+			<div class="goodsName overh">
+			<h1>
+				<em class="red">澳大利亚直邮包邮包税</em>
+				澳佳宝BLACKMORES维生素B族缓压配方 62片（海外版）
 
+			</h1>
+			<span class="">【用量：成人早餐或午餐，1日1片，12岁以下仅遵医嘱】</span>
+			<div class="goodsPay">
+				<ul class="overh">
+					<li class=" bgGray">
+						<div class="dt sp">促销价：</div>
+						<div  class="dd">
+							<span class="font" >￥</span>
+							<span class="goodsprice" style="color:red;font-size:18px;font-weight:bold;">185</span>
+						</div>
+					</li>
+					<li class=" bgGray">
+						<div class="dt">价&nbsp;&nbsp;格：</div>
+						<div  class="dd">
+							<del class="b-font" >￥241</del>
+								
+						</div>
+					</li>
+					<li class="sumSale bgGray overh">
+						<div class="dt">促销信息：</div>
+					
+						<div class="dd">
+							<p> <a href="javascript:void(0);">登录</a>查看更多优惠</p>
+							<p>
+								<em>满额赠</em>
+								<a href="###" class="man">满289.00元即赠热销商品，购物车领取赠品</a>
+							</p>
+						</div>
+					</li>
+					<li class="ass">
+						<span>
+						累计销量：
+							<em>314</em>
+							<i>|</i>
+						</span>
+						<span>
+						累计评价：
+							<em>25</em>
+							<i>|</i>
+						</span>
+						<span>
+						赠送麦豆：
+							<em>18</em>
+						
+						</span>
+
+
+
+					</li>
+					<li>
+						<div class="dt">属&nbsp;&nbsp;性：</div>
+						<div  class="dd">
+							<span>规格：<i class="stock-num">5</i>个</span> 
+								
+						</div>
+					</li>
+					<li>
+						<span>配送方式</span>
+						： 由麦乐购（香港）有限公司海外直邮
+					</li>
+					<li >
+						<div class="dt">分&nbsp;&nbsp;类：</div>
+						<ul  class="sort">
+							
+
+								
+						</ul>
+					</li>
+					<li>
+						<div class="dt">购买数量：</div>
+						<div  class="dd ch-num">
+							 <a href="###" class="de re-decrease">-</a>
+							 <input type="text" class="tet re-num" value="1" maxlength="3">
+							 <a href="###" class="re re-increase">+</a> 
+								
+						</div>
+					</li>
+					<div class="divbtn">
+						<span class="buybtn">加入购物车</span>
+					</div>
+					<li>
+						<span>温馨提示：</span>
+						 此商品不参加会员折扣
+					</li>
+				</ul>
+			</div>
 		</div>
 		
-		
+	</div>	
 		
 		
 		

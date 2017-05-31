@@ -7,7 +7,7 @@
 require(['config'],function(){
 
 	//核心工作
-	require(['jquery','layer','template','fangdajing'],function($,b,template,d){
+	require(['jquery','layer','template','fangdajing','collect'],function($,b,template,d,c){
 		 layer.config({
 		    path: 'js/plug/layer/'
 		  });
@@ -77,6 +77,10 @@ require(['config'],function(){
 		
 		/*----------nav-menu--------------*/
 		$('nav').load('load.html .search-item,.nav-item',function(){
+			$('.nav-item .nav-menu ul').stop().animate({
+						height:0,
+						display:'none'
+					});
 			$('.nav-menu li').on("mouseenter",function(){
 				var index=$(this).index();
 				$('.nav-item-t-l').on("mouseenter",function(){

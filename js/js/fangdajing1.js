@@ -67,8 +67,8 @@ jQuery.fn.zoom=function(opt){
 			$('.arrow-right').click(function(){
 				index++;
 				
-				if(index > $('.jcarousel-item img').length - 4){
-					index = $('.jcarousel-item img').length - 4;
+				if(index > $('.jcarousel-item img').length - 3){
+					index = $('.jcarousel-item img').length - 3;
 					return;
 				}
 				$('.slide-main ul').stop()

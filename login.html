@@ -1,9 +1,87 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-	</head>
-	<body>
-	</body>
-</html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" href="css/load.css" />
+	<script data-main="js/js/register" src="js/plug/require.js" defer async="true"></script>
+</head>
+<body>
+	<div class="settleTop overh">
+		<div class="settleTop-main">
+			<div class="gologe">
+				<a href="index.html">
+					<img src="img/logo.gif">
+				</a>
+				
+			</div>
+			<div class="stepCar">
+				<a href="register.html"><img src="img/reg.png"></a>
+				
+			</div>
+		</div>
+	</div>
+	<div class="articlereg">
+		<div class="regMain overh">
+			<div class="regLeft">
+				<img src="img/yy.png">
+			</div>
+			<div class="regRight">
+				<h3>登录</h3>
+				<span class="rg">
+					<a href="register.html" >免费快速注册</a>
+				</span>
+				<div class="clear"></div>
+				
+					<ul id="loginFrom">
+						<li class="liLab overh">
+							<label class="user0" for="user"></label>
+							<input type="text"  name="username" placeholder="手机号码/邮箱/用户名" value class="user" id="user" />
+							<p class="username-err"></p>
+						</li>
+						<li class="liLab overh">
+							<label class="pass0" for="pass0"></label>
+							<input type="password"  name="pwd" placeholder="密码" value class="pass" id="pass" maxlength="20" />
+							<p class="pwd-err"></p>
+						</li>
+						<li>
+							<input type="text" name="" class="code" placeholder="验证码" title="验证码" maxlength="4" name="vcode" id="code">
+							<img name="vcode"  src="img/verifyImg.jpg" id="Reg_img_verifyCode" style="vertical-align: middle;margin-right:5px" alt="点击刷新验证码"
+							title="点击刷新验证码" >
+							<a href="">换一张</a>
+							<P class="code-err"></P>
+						</li>
+						<li class="overh">
+							<a href="###" style="float:right">忘记密码？</a>
+						</li>
+						<li class="overh">
+							<input id="userLogin"  type="submit" name="" value="登录" class="btn" >
+						</li>
+						<li>
+							
+							<p class="otherReg">
+							  <span>使用其他账号登录:</span>
+								<a class="qq" onclick="" title="使用QQ登录"
+								 ></a>
+								 <a class="aliPay"  onclick="" title="使用支付宝账号快捷登录"
+								 ></a>
+								 <a class="ws360"  onclick="" title="360联盟账号登录"
+								 ></a>
+								 <a class="sina"  onclick="" title="新浪微博账号登录"
+								 ></a>
+							</p>
+						</li>
+					</ul>
+				
+			</div>
+		</div>
+	</div>
+	
+	<!--尾部-->
+	<div class="foot"></div>
+
+
+</body>
+</html> 
