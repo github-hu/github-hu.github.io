@@ -8,7 +8,7 @@ jQuery.fn.zoom=function(opt){
 	Zoom.prototype={
 		constructor:Zoom,
 		init:function(opt){
-			var _this=this;
+			
 			this.move();
 			this.btn();
 			

@@ -1,5 +1,8 @@
 require(['config'],function(){
-	require(['jquery','cookie'],function(){
+	require(['jquery','cookie','layer'],function($,a,layer){
+		layer.config({
+		    path: 'js/plug/layer/'
+		  });
 		$('.foot').load('load.html .footer-about');
 		$('input').focus(function(){
 			$(this).css({
@@ -11,6 +14,7 @@ require(['config'],function(){
 			});
 		});
 		$('#userLogin').click(function(){
+			
 			var account = $('#user').val();
 			var psw = $('#pass').val();
 			if (account == '') {
@@ -29,13 +33,32 @@ require(['config'],function(){
 				type:'post',
 				url:'http://datainfo.duapp.com/shopdata/userinfo.php',
 				data:{
+					status:'login',
 					userID:account,
 					password:psw
 
 				},
-				dataType:'jsonp',
+				//dataType:'jsonp',
 				success:function(result){
-					console.log(result);
+					switch(result){
+						case '0':
+						layer.alert('用户名不存在');
+						break;
+						case '2':
+						layer.alert('用户名密码不符');
+						break;
+						default:
+						layer.alert('登陆成功');
+						var userinfo = {
+							userID:account,
+							login_status:1
+						};
+						$.cookie('userinfo',JSON.stringify(userinfo),{expires:365,path:'/'});
+						location.href = "index.html";
+						break;
+					}
+					
+					/*console.log(result);
 					if (result.status) {
 						alert('登陆成功');
 						var userinfo = {
@@ -46,7 +69,7 @@ require(['config'],function(){
 						location.href = "index.html";
 					}else{
 						alert('登陆失败');
-					}
+					}*/
 				}
 			});
 

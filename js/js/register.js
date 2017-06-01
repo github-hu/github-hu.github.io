@@ -1,5 +1,8 @@
 require(['config'],function(){
-	require(['jquery'],function($){
+	require(['jquery','layer'],function($,layer){
+		layer.config({
+		    path: 'js/plug/layer/'
+		  });
 		$('.foot').load('load.html .footer-about');
 		$('input').focus(function(){
 			$(this).css({
@@ -38,16 +41,29 @@ require(['config'],function(){
 			$.ajax({
 				url:'http://datainfo.duapp.com/shopdata/userinfo.php',
 				data:{
+					status:'login',
 					userID:phone
 				},
-				dataType: 'jsonp',
+				//dataType: 'jsonp',
 				success:function(result){
-					if (result.status) {
+					console.log(result);
+					switch(result){
+						case '0':
+						
+						$('.phone-err').html('用户名可用');
+						regStatus.phone = true;
+						break;
+						default:
+						$('.phone-err').html('用户名不可用或非法字符');
+						regStatus.phone = true;
+						break;
+					}
+					/*if (result) {
 						$('.phone-err').html('用户名可用');
 					}else{
 						$('.phone-err').html('用户名存在');
 						regStatus.phone =  false;
-					}
+					}*/
 				}
 			})
 		});
@@ -93,6 +109,7 @@ require(['config'],function(){
 		}
 		});
 		regBtn.click(function(){
+		
 			for(var i in regStatus){
 				console.log(regStatus[i]);
 				if(!regStatus[i]){
@@ -102,18 +119,36 @@ require(['config'],function(){
 			}
 			$.ajax({
 				type:'post',
-				url: 'http://datainfo.duapp.com/shopdata/userinfo.php',
+				url:'http://datainfo.duapp.com/shopdata/userinfo.php',
 				data:{
+					status:'register',
 					userID:phoneInput.val(),
 					password:pswInput.val()
 				},
-				dataType:"jsonp",
+				//dataType:"jsonp",
 				success:function(result){
-					if (result) {
+					console.log(result);
+					switch(result){
+						case '0':
+						layer.alert('用户名重名');
+						break;
+						case '1':
+						alert('注册成功');
+						layer.alert('注册成功');
+						location.href = "login.html";
+						break;
+						case'2':
+						layer.alert('网络问题');
+						break;
+					}
+					
+					
+					
+					/*if (result) {
 						location.href="login.html";
 					}else{
 						alert('注册失败');
-					}
+					}*/
 				}
 			});
 		});
