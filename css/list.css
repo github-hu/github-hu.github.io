@@ -587,6 +587,8 @@ nav {
   width: 240px;
   height: 240px;
   margin-top: 15px;
+	background: url(../img/error-jd.gif) no-repeat;
+	background-position: center center;
 }
 
 .sale-list .guess-m ul li h3 {

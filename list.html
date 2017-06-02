@@ -11,7 +11,7 @@
 					<ul>
 						{{each goods as v}}
 						<li data = "{{v.id}}">
-							<a><img src="{{v.src}}" alt="" /></a>
+							<a><img class="lazy" data-lazy-img="{{v.src}}"/></a>
 							<h3><a><font class="red">{{v.head}}</font>{{v.p}}</a></h3>
 							<p><b class="red">{{v.sale}}</b>{{v.salez}}</p>
 							<span>价格<b>{{v.piece}}</b></span>

@@ -48,7 +48,7 @@ require(['config'],function(){
 						layer.alert('用户名密码不符');
 						break;
 						default:
-						layer.alert('登陆成功');
+						alert('登陆成功');
 						var userinfo = {
 							userID:account,
 							login_status:1

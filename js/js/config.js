@@ -15,7 +15,8 @@ require.config({
 		"floor":"js/floor",
 		"smallbanner":"js/smallbanner",
 		"fangdajing":"js/fangdajing1",
-		"collect":"js/collect"
+		"collect":"js/collect",
+		"lazyload":"plug/jquery.lazyload"
 		
 		
 	},
@@ -28,8 +29,8 @@ require.config({
 		"floor": ['jquery'],
 		"smallbanner": ['jquery'],
 		"fangdajing": ['jquery'],
-		"collect": ['jquery']
-	
+		"collect": ['jquery'],
+		"lazyload":['jquery']
 		
 	}
 });

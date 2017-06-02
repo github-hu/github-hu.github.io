@@ -1,5 +1,40 @@
-define(['jquery','template','floor','smallbanner'],function($,template,floor,b){
+define(['jquery','template','floor','smallbanner','cookie'],function($,template,floor,b,cookie){
 		$(function(){
+		
+		
+		
+		/*// 获取 cookie
+		function getCookie(_name){
+			var str = document.cookie;
+			var arr = str.split("; ");
+			var l = arr.length;
+			var i = 0;
+			var col;
+			for(; i<l ; i++){
+				col = arr[i].split("=");
+				if( col[0] == _name ){
+					return decodeURIComponent(col[1]);
+				}
+			}
+			return"";
+		}
+		// 设置 cookie
+		function setCookie(_name, _value, _date){
+			if( _date ){
+				var d=new Date();
+				d.setDate(d.getDate()+_date);
+				document.cookie = _name+"="+encodeURIComponent(_value)+"; path=/; expires="+d.toGMTString();
+			}else{
+				// 如果不设置失效时间，则时间为会话时间，所谓会话时间即打开浏览器到关闭浏览器的时间
+				document.cookie = _name+"="+encodeURIComponent(_value)+"; path=/;";
+			}
+		}
+		
+		var str=JSON.parse(getCookie("userinfo"))*/
+		
+		
+		
+		
 		
 		
 		/*------load foot head-------------------*/
@@ -8,7 +43,10 @@ define(['jquery','template','floor','smallbanner'],function($,template,floor,b){
 		/*------start head  js-------------------*/
 		$('header').load('load.html .head',function(){
 			var slide =$('.fr-slide');
-		
+			var str = $.cookie('userinfo') || '{}';
+			var str = JSON.parse(str);
+			$('#account').html(str.userID);
+			$('#haha').html('欢迎您')
 			slide.on('mouseenter',function(){
 				$(this).find('.slide_gou')
 				.css({

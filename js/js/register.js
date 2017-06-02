@@ -48,8 +48,7 @@ require(['config'],function(){
 				success:function(result){
 					console.log(result);
 					switch(result){
-						case '0':
-						
+						case '0':	
 						$('.phone-err').html('用户名可用');
 						regStatus.phone = true;
 						break;

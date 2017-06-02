@@ -7,7 +7,7 @@
 require(['config'],function(){
 
 	//核心工作
-	require(['jquery','layer','template'],function($,a,template){
+	require(['jquery','layer','template','lazyload'],function($,a,template,lazyload){
 		 layer.config({
 		    path: 'js/plug/layer/'
 		  });
@@ -132,7 +132,15 @@ require(['config'],function(){
 		  $.getJSON("json/list.json",function(date){
 					var html =template('sale-list',date);
 					$('.sale-list').html(html);
-					
+			$('.sale-list img.lazy').lazyload({
+				effect: 'fadeIn',//显示的效果   show  fadeIn  slideDown
+				data_attribute: 'lazy-img', //规定真实图片的url
+				threshold: -240, //声明图片距离屏幕底端多少距离时开始加载图片
+				failure_limit: 10, //容差
+				load: function(){ //图片加载完成做的事情
+					$(this).removeAttr('data-lazy-img');
+				}
+			});
 			
 		  	 $(".guess-m").find("li").on("click",function(){
 		  	 		console.log("1")
